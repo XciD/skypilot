@@ -52,7 +52,7 @@ RCLONE_VERSION = 'v1.68.2'
 # (b) hf-mount's NFS backend requires the host kernel to support NFS client
 # mounts, which is not universally true on Kubernetes nodes.
 #
-# Note: the published v0.6.4 Linux binaries are linked against glibc >= 2.34,
+# Note: the published v0.6.5 Linux binaries are linked against glibc >= 2.34,
 # so this requires an image with glibc 2.34+ (e.g. Ubuntu 22.04). On the
 # default SkyPilot k8s image (Ubuntu 20.04, glibc 2.31) users must specify
 # ``image_id: docker:mirror.gcr.io/ubuntu:22.04`` (or similar) in resources.
